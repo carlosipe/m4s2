@@ -4,90 +4,22 @@
     <title>TITLE</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Styles shamelessly stolen from http://bettermotherfuckingwebsite.com -->
     <style>
-      body {
-        font-family: "Helvetica", sans-serif;
-        color: #111;
-        background-color: #faffff;
-        padding: 1em;
-      }
-
-      header {
-        text-align: center;
-      }
-
-      header a {
-        font-size: 2em;
-        text-decoration: none;
-        color: #fff;
-        background-color: #111;
-        padding: 0.2em 0.4em;
-      }
-
-      main {
-        display: block;
-        max-width: 500px;
-        margin-top: 2em;
-      }
-
-      main h1 {
-        font-weight: normal;
-        font-size: 1.6em;
-        margin-bottom: 1em;
-      }
-
-      main p {
-        line-height: 1.5em;
-        font-weight: 400;
-      }
-
-      main p a {
-        color: #c55;
-      }
-
-      footer {
-        max-width: 500px;
-        border-top: 1px dotted black;
-        font-size: 80%;
-      }
-
-      footer a {
-        text-decoration: none;
-        color: #c00;
-      }
-
-      @media (min-width: 700px) {
-        body {
-          padding: 0;
-        }
-
-        header {
-          position: fixed;
-          top: 100px;
-          left: 50px;
-        }
-
-        main {
-          margin-top: 100px;
-          margin-left: 220px;
-        }
-
-        footer {
-          margin: 50px 0 50px 220px;
-        }
-      }
-    </style>
+      body{margin:40px auto;max-width:650px;line-height:1.6;font-size:16px;color:#444;padding:0 10px}h1,h2,h3{line-height:1.2}
+      pre{padding: 0 1em 1em 1em; font-size: 0.7em;}
+   </style>
+   <link rel="shortcut icon" href="https://s.gravatar.com/avatar/d042f207f1d733e7c513acd188e80336?s=16" />
+   <link rel="stylesheet" href="/assets/github.css">
+   <script src="/assets/highlight.pack.js"></script>
+   <script>hljs.initHighlightingOnLoad();</script>
   </head>
   <body>
-    <header>
-      <a href="index.html">m4s2</a>
-    </header>
     <main>
       m4_include(CONTENT)
     </main>
     <footer>
       <p>
-        <a href="https://github.com/soveran/m4s2">github.com/soveran/m4s2</a>
       </p>
     </footer>
   </body>
